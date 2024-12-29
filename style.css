@@ -1,0 +1,125 @@
+body {
+  box-sizing: border-box;
+  background-color: #0d0714;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 100px 0px;
+}
+
+.main {
+  background-color: #1d1825;
+  width: 538px;
+  border-radius: 20px;
+}
+
+.contain {
+  margin: 60px 68px;
+}
+
+.todo__main-title {
+  position: absolute;
+  opacity: 0;
+}
+
+.todo__input-contain {
+  display: flex;
+}
+
+.todo__input {
+  width: 380px;
+  height: 40px;
+  border: 1px #9e78cf solid;
+  background-color: #1d1825;
+  border-radius: 10px;
+  padding-left: 10px;
+  caret-color: #a983da;
+  color: #9e78cf;
+}
+
+.todo__input:focus {
+  outline: none;
+  border: 2px #a983da solid;
+}
+
+.todo__plus {
+  margin-left: 11px;
+  width: 40px;
+  height: 40px;
+  background: #9e78cf;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todo__plus-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.todo__plus:active {
+  background-color: #3e1671;
+}
+
+.todo__title,
+.done__title {
+  margin-top: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.todo__element,
+.done__element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 17px;
+  padding: 22px 21px;
+  background-color: #15101c;
+  border-radius: 10px;
+}
+
+.todo__name {
+  max-width: 250px;
+  word-wrap: break-word;
+  font-weight: 400;
+  font-size: 16px;
+  color: #9e78cf;
+}
+
+.todo__execute {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-color: #15101c;
+  border: none;
+  cursor: pointer;
+  background-image: url("Vector.svg");
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.todo__delete {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-color: #15101c;
+  border: none;
+  cursor: pointer;
+  background-image: url("Vector1.svg");
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  fill: #9e78cf;
+}
+
+.done__name {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #78cfb0;
+}

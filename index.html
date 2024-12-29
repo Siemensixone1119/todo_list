@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="contain">
+            <section>
+                <h1 class="todo__main-title">to do list</h1>
+                <div class="todo__input-contain">
+                    <input type="text" class="todo__input" placeholder="Add a new task">
+                    <button class="todo__plus" type="button"><svg class="todo__plus-btn">
+                            <use href="symbol-defs.svg#icon-plus"></use>
+                        </svg></button>
+                </div>
+                <h2 class="todo__title">Tasks to do - <span class="todo__result">0</span></h2>
+                <div class="todo__contain">
+                    <!-- <div class="todo__element">
+                            <p class="todo__name">To study React fundamentals</p>
+                            <div class="todo__btn">
+                                <button class="todo__execute"><svg class="todo__execute-btn">
+                                        <use href="symbol-defs.svg#icon-yes"></use>
+                                    </svg></button>
+                                <button class="todo__delete"><svg class="todo__delete-btn">
+                                        <use href="symbol-defs.svg#icon-del"></use>
+                                    </svg></button>
+                            </div>
+                        </div> -->
+                </div>
+            </section>
+            <section>
+                <h2 class="done__title">Done - <span class="done__result">0</span></h2>
+                <div class="done__contain">
+                    <!-- <div class="done__element">
+                        <p class="done__name">To study React fundamentals</p>
+                    </div> -->
+                </div>
+            </section>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
